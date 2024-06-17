@@ -47,12 +47,12 @@ export const plaza = {
 
 export const homeLinks = [
   {
-    imgURL: "public/assets/images/shops.jpeg",
+    imgURL: "/assets/images/shops.jpeg",
     route: "/shop",
     label: "Shops & Restaurants",
   },
   {
-    imgURL: "/public/assets/images/leasing.webp",
+    imgURL: "/assets/images/leasing.webp",
     route: "/leasing",
     label: "Leasing",
   },
@@ -80,7 +80,7 @@ export const tenant = [
     address: "14190 Beach Blvd",
     phone: "(714) 277-0209",
     category: "Event center",
-    imgURL: "/public/assets/images/14190.jfif",
+    imgURL: "/assets/images/14190.jfif",
   },
   {
     id: "14200",
@@ -88,6 +88,6 @@ export const tenant = [
     address: "14200 Beach Blvd",
     phone: "(714) 899-2122",
     category: "Music instruments",
-    imgURL: "/public/assets/images/14200.jpg",
+    imgURL: "/assets/images/14200.jpg",
   },
 ];
