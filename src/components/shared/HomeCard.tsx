@@ -17,7 +17,7 @@ const map = (
       width="600"
       height="450"
       loading="lazy"
-      className="w-full  p-2 rounded-lg"
+      className="w-full  p-2 rounded-2xl"
     ></iframe>
   </section>
 );

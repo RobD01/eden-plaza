@@ -274,7 +274,7 @@
   }
 
   .post-card_img {
-    @apply w-full  object-bottom rounded-md object-cover p-2;
+    @apply w-full  object-bottom rounded-2xl object-cover p-2;
   }
 
   /* Topbar */
@@ -357,6 +357,7 @@
   overflow: hidden;
   padding-bottom: 60%;
   position: relative;
+  @apply rounded-[60px];
 }
 
 .video-responsive iframe {

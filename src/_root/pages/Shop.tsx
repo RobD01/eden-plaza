@@ -11,7 +11,7 @@ const Shop = () => {
           </h2>
 
           {/* home links */}
-          <ul className=" grid grid-cols-1 sm:grid-cols-2 gap-7 w-1/2 sm:w-full">
+          <ul className=" grid grid-cols-1 sm:grid-cols-2 gap-7 sm:w-full">
             {tenant?.map((post) => (
               <TenantCard post={post} key={post.id} />
             ))}
