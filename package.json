@@ -1,5 +1,6 @@
 {
-  "name": "Eden Plaza",
+  "homepage": "https://edenplaza.org",
+  "name": "eden-plaza",
   "private": true,
   "version": "0.0.0",
   "type": "module",
