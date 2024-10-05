@@ -1,5 +1,4 @@
 import HomeCard from "@/components/shared/HomeCard";
-import PostCard from "@/components/shared/PostCard";
 import { plaza, homeLinks, homeInfo } from "@/constants";
 
 const Home = () => {
