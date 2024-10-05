@@ -28,28 +28,33 @@ const HomeCard = ({ post }: HomeCardProps) => {
       {post.name ? (
         <div className=" p-3 text-center">
           {plaza.leasing ? (
-            <div className="mb-3">
-              <p className="text-center text-xl">Available for lease</p>
-              <div className="text-center text-lg">
-                <p className="mb-2">{plaza.leasingDetail}</p>
+            <div className="flex flex-col gap-2 text-center">
+              <p className="">Available for lease</p>
+              <p>{plaza.leasingDetail}</p>
+              <div>
                 <p>
-                  Please call or text John at 714-902-3989 <br />
-                  or email Robert at rdao2893@gmail.com
+                  Please contact <br />
+                  Loan (Jennifer) : {plaza.phone1} <br />
+                  An (John) : {plaza.phone2} <br />
+                  Robert : rdao2893@gmail.com
                 </p>
               </div>
             </div>
           ) : (
-            <div className="mb-3">
-              <p className="text-center text-xl">
-                No available spaces for lease
-              </p>
-              <div className="text-center text-lg">
+            <div className="flex flex-col gap-2 text-center">
+              <p className="">No available spaces for lease</p>
+              <div className="">
                 <p>
-                  Please call or text John at 714-902-3989 <br />
-                  or email Robert at rdao2893@gmail.com <br />
-                  and we update you on availablities
+                  Please contact <br />
+                  Loan (Jennifer) : {plaza.phone1} <br />
+                  An (John) : {plaza.phone2} <br />
+                  Robert : rdao2893@gmail.com
                 </p>
               </div>
+              <p>
+                And we will update you on availabilities in the future or for
+                other locations
+              </p>
             </div>
           )}
         </div>

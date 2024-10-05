@@ -38,11 +38,11 @@ export const plaza = {
   name: "Eden Plaza",
   address: "14200 Beach Boulevard, Westminster, CA 92683",
   note: "Available for lease. Email or call for interest",
-  phone1: "714-902-3989",
-  phone2: "714-383-0695",
+  phone1: "714-891-7856",
+  phone2: "714-902-3989",
   email: "rdao2893@gmail.com",
-  leasing: true,
-  leasingDetail: "One 23,500 square foot space available around July 2024",
+  leasing: false,
+  leasingDetail: "",
 };
 
 export const homeLinks = [
@@ -76,7 +76,7 @@ export const homeInfo = [
 export const tenant = [
   {
     id: "14190",
-    name: "Lavender",
+    name: "Lavender Night Club / Viet My Media",
     address: "14190 Beach Blvd",
     phone: "(714) 277-0209",
     category: "Event center",
@@ -84,10 +84,10 @@ export const tenant = [
   },
   {
     id: "14200",
-    name: "Sam Ash",
+    name: "Pickleball & Indoor Golf Center (coming Dec 2024)",
     address: "14200 Beach Blvd",
-    phone: "(714) 899-2122",
-    category: "Music instruments",
-    imgURL: "/assets/images/14200.jpg",
+    phone: "",
+    category: "Sports Recreation",
+    imgURL: "/assets/images/14200.jpeg",
   },
 ];
