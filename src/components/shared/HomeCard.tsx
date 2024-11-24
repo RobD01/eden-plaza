@@ -26,7 +26,13 @@ const HomeCard = ({ post }: HomeCardProps) => {
   return (
     <div className="post-card">
       {post.name ? (
-        <div className=" p-3 text-center">
+        <div className=" flex flex-col gap-3 p-3 text-center">
+          <p className="border-b border-sky-300">
+            Discover the ultimate destination for both recreation and activities
+            at Eden Plaza. Featuring Lavender Event Center for wedding or
+            birthday venue. Currently remodeling for an indoor pickleball and
+            tennis center.
+          </p>
           {plaza.leasing ? (
             <div className="flex flex-col gap-2 text-center">
               <p className="">Available for lease</p>
