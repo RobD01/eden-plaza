@@ -37,7 +37,8 @@ export const bottombarLinks = [
 export const plaza = {
   name: "Eden Plaza",
   address: "14200 Beach Boulevard, Westminster, CA 92683",
-  note: "Available for lease. Email or call for interest",
+  description:
+    "Discover the ultimate destination for both recreation and activities at Eden Plaza. Featuring Lavender Event Center for wedding or birthday venue. Currently remodeling for an indoor pickleball and tennis center.",
   phone1: "714-891-7856",
   phone2: "714-902-3989",
   email: "rdao2893@gmail.com",
@@ -61,15 +62,19 @@ export const homeLinks = [
 export const homeInfo = [
   {
     id: 1,
-    name: plaza.name,
+    description: true,
   },
   {
     id: 2,
-    address: "14190 - 14200 Beach Blvd, Westminster, CA 92683",
+    name: true,
   },
   {
     id: 3,
-    video: "https://www.youtube.com/embed/O7J4w9DKblQ?si=BFJp45p1DQxlOPSG",
+    address: true,
+  },
+  {
+    id: 4,
+    video: true,
   },
 ];
 
